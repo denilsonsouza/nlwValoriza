@@ -1,18 +1,10 @@
-import express, { response } from "express"
-// @types/express
+import "reflect-metadata";
+import express from "express";
+import { router } from "./routers";
+import "./database"
+
 const app = express();
-/**
- * GET => Seach for informations
- * POST => Insert/Create informations into API
- * PUT =>  Update information
- * DELETE => Remove information
- * PATH => Update only one data
- */
-app.get("/test",(request, response)=>{
-  return response.send("Hello NLW");
-}); 
-app.post("/test-post",(request, response) =>{
-  return response.send("Hello method POST");
-});
-//http://localhost:3000
-app.listen(3000,()=>{console.log("Server running NLW...");});
+app.use(express.json());
+app.use(router);
+
+app.listen(3000, () => { console.log("Server running NLW..."); });
