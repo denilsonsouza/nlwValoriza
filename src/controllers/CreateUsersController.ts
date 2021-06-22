@@ -1,5 +1,4 @@
 import { Request, Response } from "express"
-import { RepositoryNotTreeError } from "typeorm";
 import { CreateUserService } from "../service/CreateUserService";
 
 class CreateUsersController {
