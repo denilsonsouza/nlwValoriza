@@ -9,6 +9,7 @@ import { ListUserSendComplimentsController } from "./controllers/ListUserSendCom
 import { ListUserReceiveComplimentsController } from "./controllers/ListUserReceiveComplimentsController";
 import { ListTagsController } from "./controllers/ListTagsController";
 import { ListUsersController } from "./controllers/ListUsersController";
+import { SendEmailController } from "./controllers/SendEmailController";
 const router = Router();
 
 const createUsersController = new CreateUserController();
@@ -19,7 +20,6 @@ const listUserSendComplimentsController = new ListUserSendComplimentsController(
 const listUserReceiveComplimentsController = new ListUserReceiveComplimentsController();
 const listTagsController = new ListTagsController();
 const listUsersController = new ListUsersController();
-
 router.get("/tags",ensureAuthenticate, listTagsController.handle);
 
 router.post(
@@ -36,7 +36,7 @@ router.post("/login", authenticateUserController.handle);
 router.post(
   "/compliments",
   ensureAuthenticate,
-  createComplimentController.handle
+  createComplimentController.handle,
 );
 
 router.get("/users/compliments/send",
