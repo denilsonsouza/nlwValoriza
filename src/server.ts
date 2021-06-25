@@ -15,4 +15,4 @@ app.use(router);
 
 app.use(errorHandle);
 
-app.listen(3000, () => { console.log("Server running NLW..."); });
+app.listen(process.env.PORT || 3000, () => { console.log("Server running NLW..."); });
