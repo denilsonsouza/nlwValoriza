@@ -10,6 +10,6 @@ app.use(express.json());
 
 app.use(router);
 
-app.use(errorHandle)
+app.use(errorHandle);
 
 app.listen(3000, () => { console.log("Server running NLW..."); });
