@@ -9,7 +9,6 @@ import { ListUserSendComplimentsController } from "./controllers/ListUserSendCom
 import { ListUserReceiveComplimentsController } from "./controllers/ListUserReceiveComplimentsController";
 import { ListTagsController } from "./controllers/ListTagsController";
 import { ListUsersController } from "./controllers/ListUsersController";
-import { SendEmailController } from "./controllers/SendEmailController";
 const router = Router();
 
 const createUsersController = new CreateUserController();
