@@ -1,7 +1,7 @@
 module.exports = {
-  type: `postgres`,
-  url: process.env.DATABASE_URL,
-  ssl: false,
+  "type": "postgres",
+  "url": process.env.DATABASE_URL,
+  "ssl": false,
   extra: {
     ssl: { 
       rejectUnauthorized: false 

@@ -12,9 +12,14 @@
   [x] It is not allowed the registration of tags by non-admin user
 
 ## 3 - Compliments Register
-  [ ] It is not allowed the user to register a compliment for yourself
+  [x] It is not allowed the user to register a compliment for yourself
   
-  [ ] It is not allowed the user to register a compliment for invalid user.
+  [x] It is not allowed the user to register a compliment for invalid user.
   
-  [ ] The user must be authenticated
+  [x] The user must be authenticated
 
+## 4 - Upload of project in Heroku server.
+  [x] Up the code 
+  [x] Set ambient variable 
+  [x] Change the database for Postgress
+  [ ] Run migration in the server. 
