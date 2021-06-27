@@ -1,4 +1,7 @@
-# NWL week project - Valoriza.
+# NWL week project
+# [API-Heroku Valoriza](https://node-valoriza.herokuapp.com/)
+
+# User cases: 
  ## 1 - User Registration
   [x] Not allowed registration many users with the same name
 
@@ -20,6 +23,11 @@
 
 ## 4 - Upload of project in Heroku server.
   [x] Up the code 
+
   [x] Set ambient variable 
+  
   [x] Change the database for Postgress
-  [ ] Run migration in the server. 
+
+# Tools:
+  ### <h2><img src="https://nodejs.org/static/images/logo.svg" alt="NodeJs" width="10%"></h2>
+
