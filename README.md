@@ -29,5 +29,11 @@
   [x] Change the database for Postgress
 
 # Tools:
-  ### <h2><img src="https://nodejs.org/static/images/logo.svg" alt="NodeJs" width="10%"></h2>
+   - Nodejs
+   - Typescript
+   - Express
+   - TypeORM
+   - Jest
+   - Jwtwebtoken
+   - Bcryptjs
 
